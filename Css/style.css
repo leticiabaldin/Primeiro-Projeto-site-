@@ -1,0 +1,86 @@
+
+.inicio {
+    padding: 30px 30px;
+}
+h2{
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+h2:hover{
+    background-color:#000000;
+    transition: 600ms;
+}
+.estudantes {
+    width: 30%;
+    margin: 35px auto;
+    box-shadow: -7px -7px 25px;
+}
+.texto-inicio{
+    position:absolute;
+    font-size:24px ;
+    color:#000000;
+    text-align:center;
+    display: inline;
+    padding-left: 100px;
+    padding-right:50px;
+    padding-top: 50px;
+    line-height: 1.2em;
+}
+h3 {
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;  
+}
+h3:hover {
+    background-color:#000000;
+    transition: 600ms; 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h3 {
+    width: 100%;
+}
+.imagemInicial {
+    width: 100%;
+    max-width:1200px;
+    height: 540px;
+    padding: 40px 20px;
+    align-items: center;
+}
+main p {
+    color:#C9C9C9;
+    text-align: center;
+    padding:1.1%;
+    justify-content: center;
+    display: inline-flex;
+    line-height: 1em;
+}
+.bloco {
+    width:100%;
+    max-width: 1200px;
+    background-color:#361240;
+    background:linear-gradient(#361240,#280a30);
+}
+footer {
+    text-align: center;
+    background-color:#361240 ;
+    padding-top: 40px 0;
+}
+.copyright {
+    color: #C9C9C9;
+    font-size: 10px;
+    margin: 20px 0 0;
+}
+

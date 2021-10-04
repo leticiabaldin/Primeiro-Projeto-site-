@@ -1,0 +1,80 @@
+main {
+    width: 90%;
+    margin: 30px auto;
+    max-width: 1040px;
+}
+h2 {
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;  
+    width: 100%;    
+    padding: 2px;
+}
+h2:hover {
+    background-color:#000000;
+    transition: 600ms;  
+}
+section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.imagem-cadastro {
+    width: 70%;
+    max-width: 540px;
+    margin-top: 30px;
+    justify-content: center;
+}
+form {
+    padding-left: 60px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+}
+form label {
+    display: block;
+    padding: 10px 25px;
+    width: 40%;
+    color:#000000;
+    font-weight: bold;
+    align-items:flex-start;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    color:#000000;
+}
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#361240;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #C9C9C9;
+    width: 30%;
+}
+.button:active {
+    background-color:#361240;
+    box-shadow: 0 5px #C9C9C9;
+    transform: translateY(4px);
+}
+.enviar {
+    background-color:#361240;
+    color:#C9C9C9;
+    font-size: 22px;
+    border: none;
+}
+
+

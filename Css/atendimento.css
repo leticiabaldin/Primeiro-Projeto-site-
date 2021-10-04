@@ -1,0 +1,71 @@
+main {
+    width: 90%;
+    margin:30px auto;
+    align-items: center;
+}
+h2{
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}  
+h2:hover {
+    background-color:#000000;
+    transition: 600ms; 
+}
+.mapa {
+    margin-top:0 auto;
+    padding: 3em 0;
+    margin-left: 23%;
+    align-items: center;
+}
+.horarios h3 {
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+h3:hover {
+    background-color:#000000;
+    transition: 600ms; 
+}
+.atendimento {
+    font-size: 22px;
+    text-align: center;
+    color:#C9C9C9 ;
+    padding: 5px;
+    width: 0 10px;
+    color: #C9C9C9;
+    font-weight: bold;
+    margin:  20px;
+}
+.box-contatos {
+    background:linear-gradient(#4d1d5a,#280a30);
+    opacity: 80%;
+    padding: 15px 15px;
+    border:1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #280a30;
+    margin: 10px auto;
+    color:#C9C9C9;
+}
+.box-contatos h4 {
+    font-weight: bold;
+    font-size: 1.65em;
+    padding: 2px;
+    font-style: italic;
+}
+.box-contatos p {
+    font-size: 22px;
+    padding: 7px; 
+    margin-left: 60px;
+}
+ul h4 {
+    list-style: square;
+}

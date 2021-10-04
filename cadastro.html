@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro - Alunos</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/cadastro.css">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="logo" src="images/logo-ceub.jpg" alt="logo-ceub">
+            <h1 class ="titulo-principal">Espaço Aluno</h1>
+            <nav>
+                <ul>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="index.html">O Ceub</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="atendimento.html">Atendimento</a></li>
+                    <li><a href="cadastro.html">Sou Aluno</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Informe seus dados :)</h2>
+            <section>
+                <img class="imagem-cadastro" src="images/imagem-cadastro.jpg" alt="imagem-cadastro">
+                <form>
+                    <label for="nomeSobrenome">Nome Completo:</label>
+                    <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@ceub.com">
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" class="input-padrao" required placeholder="XXXX-XXXX">
+
+                    <button class="button"><input type="submit" id="enviar" class="enviar"></button>
+                </form> 
+            </section>
+        </main>
+        </body>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <img class="logo-rodape" src="images/logo-rodape.jpg">
+            <p class="copyright">&copy; Copyright Uniceub-2021.</p>
+        </footer>
+    </html>

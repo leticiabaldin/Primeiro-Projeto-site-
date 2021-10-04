@@ -1,0 +1,60 @@
+body {
+    background:linear-gradient( rgb(204, 204, 204, 0.76),#361240 );
+    font-family: 'Work Sans', sans-serif;
+}
+.cabecalho {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #361240 ;
+    
+}
+.titulo-principal{
+    font-size: 30px;
+    text-align: center;
+    color: #C9C9C9;   
+    box-shadow: 10px 10px ;
+    box-sizing: border-box;
+    border: 5px solid #220536;
+    border-radius: 15px;
+    border-width: 5px;
+    background-color:#220536 ;
+    box-shadow: 10px 10px 5px #1f0331;  /*O terceiro e blur: efeito na sombra*/
+}
+.titulo-principal:active {
+    color:rgb(35, 168, 2) ;
+}
+.logo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px 30px;
+}
+.cabecalho nav li {
+    display: inline-block;
+}
+.cabecalho nav li a {
+    text-decoration: none;
+    color: #C9C9C9;
+    font-size: 20px;
+    justify-content:space-between ;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a:hover {
+    background-color:#220536;
+    font-size: 22px;
+}
+footer {
+    text-align: center;
+    background-color:#361240 ;
+    padding-top: 40px 0;
+}
+.copyright {
+    color: #C9C9C9;
+    font-size: 20px;
+    margin: 0 0;
+}

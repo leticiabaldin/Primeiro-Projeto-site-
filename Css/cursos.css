@@ -1,0 +1,59 @@
+main {
+    width: 93%;
+}
+ h2 {
+    color:#C9C9C9 ;
+    background-color:#361240 ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+ h2:hover {
+    background-color: #000000;
+    transition: 600ms;
+}
+main {
+    margin: 30px auto;
+}
+.tipo-matricula {
+    font-size: 17px;
+    display: inline;
+    color: #000000 ;
+}
+.tipo-matricula li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #361240;      /**tamanho   tipo   cor**/
+    border-radius: 20px;     
+    box-shadow: 2px 2px 5px #361240;
+}
+.tipo-matricula li:hover {
+    background-color:#c9c9c94f ;
+}
+.tipo-matricula li:hover h3 {
+    font-size: 27px;
+    transition: 0.5s;
+}
+.tipo-matricula h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.tipo-matricula h3 {
+    padding: 10px;
+    color: #000000;
+}
+.graduation i, .ead i, .pos i, .mestrado i, .extensao i, .mobilidade i {
+    height: 10px;
+    font-size: 50px;
+    color: #000000;
+}
